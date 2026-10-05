@@ -75,7 +75,7 @@ function RelationCard({ course, selectedProgram, tone, onSelectCourse }) {
 function FlowConnector({ tone, label }) {
   const color = tone === 'amber' ? 'text-amber-300 border-amber-400/40 bg-amber-500/10' : 'text-emerald-300 border-emerald-400/40 bg-emerald-500/10';
   return (
-    <div className="flex shrink-0 items-center justify-center py-1 sm:py-0 sm:px-1">
+    <div className="flex w-full shrink-0 items-center justify-center py-1 sm:h-full sm:w-12 sm:py-0">
       <div className={`flex flex-col sm:flex-row items-center gap-1 rounded-full border px-2.5 py-1.5 text-[10px] font-bold ${color}`}>
         <span className="hidden sm:block whitespace-nowrap">{label}</span>
         <ArrowLeft className="hidden sm:block w-5 h-5" />
@@ -146,7 +146,7 @@ export default function FlowVisualization({ currentCourse, courseMap, selectedPr
       </div>
 
       <div className="overflow-x-hidden">
-        <div className="grid min-w-0 grid-cols-1 gap-2 p-3 sm:grid-cols-[minmax(0,1fr)_auto_minmax(0,1.1fr)_auto_minmax(0,1fr)] sm:items-start sm:p-5">
+        <div className="grid min-w-0 grid-cols-1 gap-2 p-3 sm:grid-cols-[minmax(0,1fr)_3rem_minmax(0,1fr)_3rem_minmax(0,1fr)] sm:items-stretch sm:gap-2 sm:p-5">
           <RelationColumn
             title="المتطلبات السابقة"
             subtitle="يجب اجتيازها قبل تسجيل المادة"
@@ -159,7 +159,7 @@ export default function FlowVisualization({ currentCourse, courseMap, selectedPr
 
           <FlowConnector tone="amber" label="تؤدي إلى" />
 
-          <section className="w-full min-w-0 rounded-2xl border-2 border-blue-400/60 bg-gradient-to-br from-blue-700 via-indigo-700 to-blue-900 p-4 shadow-lg">
+          <section className="flex h-full w-full min-w-0 flex-col rounded-2xl border-2 border-blue-400/60 bg-gradient-to-br from-blue-700 via-indigo-700 to-blue-900 p-4 shadow-lg">
             <div className="mb-2 flex items-center justify-between gap-2">
               <span className="rounded-md bg-blue-400/30 px-2 py-1 text-[10px] font-extrabold text-blue-100">
                 المادة الحالية
