@@ -88,7 +88,7 @@ function FlowConnector({ tone, label }) {
 function RelationColumn({ title, subtitle, icon: Icon, tone, courses, selectedProgram, onSelectCourse }) {
   const titleColor = tone === 'amber' ? 'text-amber-300' : 'text-emerald-300';
   return (
-    <section className="flex w-full min-w-0 flex-col gap-2 sm:w-[clamp(210px,27vw,280px)] sm:shrink-0">
+    <section className="flex w-full min-w-0 flex-col gap-2">
       <div className={`flex items-start gap-2 ${titleColor}`}>
         <Icon className="mt-0.5 h-4 w-4 shrink-0" />
         <div className="min-w-0">
@@ -145,8 +145,8 @@ export default function FlowVisualization({ currentCourse, courseMap, selectedPr
         </p>
       </div>
 
-      <div className="overflow-x-auto custom-scrollbar">
-        <div className="flex min-w-0 flex-col gap-2 p-3 sm:min-w-[720px] sm:flex-row sm:items-start sm:gap-2 sm:p-5">
+      <div className="overflow-x-hidden">
+        <div className="grid min-w-0 grid-cols-1 gap-2 p-3 sm:grid-cols-[minmax(0,1fr)_auto_minmax(0,1.1fr)_auto_minmax(0,1fr)] sm:items-start sm:p-5">
           <RelationColumn
             title="المتطلبات السابقة"
             subtitle="يجب اجتيازها قبل تسجيل المادة"
@@ -159,7 +159,7 @@ export default function FlowVisualization({ currentCourse, courseMap, selectedPr
 
           <FlowConnector tone="amber" label="تؤدي إلى" />
 
-          <section className="w-full min-w-0 rounded-2xl border-2 border-blue-400/60 bg-gradient-to-br from-blue-700 via-indigo-700 to-blue-900 p-4 shadow-lg sm:w-[clamp(230px,30vw,300px)] sm:shrink-0">
+          <section className="w-full min-w-0 rounded-2xl border-2 border-blue-400/60 bg-gradient-to-br from-blue-700 via-indigo-700 to-blue-900 p-4 shadow-lg">
             <div className="mb-2 flex items-center justify-between gap-2">
               <span className="rounded-md bg-blue-400/30 px-2 py-1 text-[10px] font-extrabold text-blue-100">
                 المادة الحالية
