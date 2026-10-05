@@ -53,17 +53,17 @@ export default function FullFlowModal({ course, courseMap, selectedProgram, onCl
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
-      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-slate-900/70 backdrop-blur-xs animate-fade-in dir-rtl"
+      className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-5 bg-slate-900/70 backdrop-blur-xs animate-fade-in dir-rtl"
     >
-      <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl border border-slate-200">
+      <div className="bg-white rounded-2xl sm:rounded-3xl max-w-2xl w-full max-h-[calc(100dvh-1rem)] sm:max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl border border-slate-200">
         {/* Modal Header */}
-        <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between sticky top-0 bg-white z-10">
-          <div className="flex items-center gap-2">
+        <div className="p-3.5 sm:p-5 border-b border-slate-100 flex items-center justify-between gap-2 sticky top-0 bg-white z-10">
+          <div className="flex items-center gap-2 min-w-0">
             <div className="w-9 h-9 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center font-bold">
               <GitFork className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-base text-slate-900">
+              <h3 className="font-bold text-sm sm:text-base text-slate-900 break-words">
                 المسار الدراسي الشامل (Full Course Path)
               </h3>
               <p className="text-xs text-slate-500 font-mono">
@@ -81,7 +81,7 @@ export default function FullFlowModal({ course, courseMap, selectedProgram, onCl
         </div>
 
         {/* Modal Content */}
-        <div className="p-5 sm:p-6 space-y-6">
+        <div className="p-3.5 sm:p-6 space-y-6">
           {/* UPSTREAM PREREQUISITES CHAIN */}
           <div>
             <h4 className="font-bold text-sm text-amber-700 bg-amber-50 px-3 py-1.5 rounded-xl border border-amber-200 mb-3 inline-block">

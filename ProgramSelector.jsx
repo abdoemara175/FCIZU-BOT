@@ -44,17 +44,17 @@ export default function ProgramSelector({ isOpen, onClose, selectedProgram, onSe
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-fade-in dir-rtl">
-      <div className="bg-white rounded-3xl max-w-md w-full p-5 sm:p-6 shadow-2xl border border-slate-200 space-y-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-slate-900/60 backdrop-blur-xs animate-fade-in dir-rtl">
+      <div className="bg-white rounded-2xl sm:rounded-3xl max-w-md w-full max-h-[calc(100dvh-1rem)] overflow-y-auto p-3.5 sm:p-6 shadow-2xl border border-slate-200 space-y-4">
         {/* Modal Header */}
         <div className="flex items-center justify-between border-b border-slate-100 pb-3">
           <div className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center font-bold">
               <GraduationCap className="w-5 h-5" />
             </div>
-            <div>
-              <h3 className="font-bold text-base text-slate-900">اختر برنامجك الدراسي</h3>
-              <p className="text-xs text-slate-500">اختر التخصص لعرض حالة إجبارية/اختيارية المواد بدقة</p>
+            <div className="min-w-0">
+              <h3 className="font-bold text-sm sm:text-base text-slate-900">اختر برنامجك الدراسي</h3>
+              <p className="text-[11px] sm:text-xs text-slate-500">اختر التخصص لعرض حالة إجبارية/اختيارية المواد بدقة</p>
             </div>
           </div>
           {onClose && (
@@ -90,7 +90,7 @@ export default function ProgramSelector({ isOpen, onClose, selectedProgram, onSe
                       {prog.name_ar}
                     </span>
                   </div>
-                  <div className="text-xs text-slate-500">{prog.desc}</div>
+                  <div className="text-[11px] sm:text-xs text-slate-500">{prog.desc}</div>
                 </div>
 
                 {isSelected ? (

@@ -41,17 +41,17 @@ export default function CourseDetailsModal({ course, courseMap, selectedProgram,
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
-      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-slate-900/70 backdrop-blur-xs animate-fade-in dir-rtl"
+      className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-5 bg-slate-900/70 backdrop-blur-xs animate-fade-in dir-rtl"
     >
-      <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl border border-slate-200 flex flex-col">
+      <div className="bg-white rounded-2xl sm:rounded-3xl max-w-2xl w-full max-h-[calc(100dvh-1rem)] sm:max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl border border-slate-200 flex flex-col">
         {/* Sticky Header */}
-        <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between sticky top-0 bg-white z-10">
-          <div className="flex items-center gap-3">
+        <div className="p-3.5 sm:p-5 border-b border-slate-100 flex items-center justify-between gap-2 sticky top-0 bg-white z-10">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
             <span className="font-mono font-extrabold text-sm sm:text-base px-3 py-1 bg-slate-900 text-white rounded-xl tracking-wider dir-ltr shadow-xs">
               {displayCode}
             </span>
             <div>
-              <h3 className="font-bold text-base sm:text-lg text-slate-900">
+              <h3 className="font-bold text-sm sm:text-lg text-slate-900 break-words">
                 {course.name_ar}
               </h3>
               <p className="text-xs font-mono text-slate-500 dir-ltr text-right">
@@ -69,7 +69,7 @@ export default function CourseDetailsModal({ course, courseMap, selectedProgram,
         </div>
 
         {/* Modal Content Body */}
-        <div className="p-4 sm:p-6 space-y-5">
+        <div className="p-3.5 sm:p-6 space-y-5">
           {/* Requirement Badge (Text + Color) & Level */}
           <div className="flex flex-wrap items-center gap-2">
             <span

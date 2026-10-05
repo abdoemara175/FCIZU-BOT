@@ -38,10 +38,10 @@ export default function CourseResponseCard({ course, courseMap, selectedProgram,
   };
 
   return (
-    <div className="bg-white rounded-3xl p-4 sm:p-6 border border-slate-200/90 shadow-xs space-y-4 text-right dir-rtl">
+    <div className="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-6 border border-slate-200/90 shadow-xs space-y-4 text-right dir-rtl min-w-0 overflow-hidden">
       {/* Header Info */}
       <div className="flex items-start justify-between gap-3 border-b border-slate-100 pb-3">
-        <div>
+        <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2 mb-1.5">
             {/* Program Requirement Badge (Text + Color) */}
             <span
@@ -59,10 +59,10 @@ export default function CourseResponseCard({ course, courseMap, selectedProgram,
             </span>
           </div>
 
-          <h3 className="font-extrabold text-xl sm:text-2xl text-slate-900 leading-tight">
+          <h3 className="font-extrabold text-lg sm:text-2xl text-slate-900 leading-tight break-words">
             {course.name_ar} <span className="text-base font-bold text-slate-500 font-sans">({reqInfo.label_ar})</span>
           </h3>
-          <p className="text-xs sm:text-sm font-mono font-medium text-slate-500 dir-ltr text-right">
+          <p className="text-[11px] sm:text-sm font-mono font-medium text-slate-500 dir-ltr text-right break-words">
             {course.name_en}
           </p>
         </div>

@@ -5,17 +5,17 @@ export default function DataReportModal({ isOpen, onClose, stats }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-fade-in">
-      <div className="bg-white rounded-3xl max-w-xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl border border-slate-200">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-slate-900/60 backdrop-blur-xs animate-fade-in">
+      <div className="bg-white rounded-2xl sm:rounded-3xl max-w-xl w-full max-h-[calc(100dvh-1rem)] sm:max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl border border-slate-200">
         {/* Modal Header */}
-        <div className="p-5 border-b border-slate-100 flex items-center justify-between sticky top-0 bg-white z-10">
-          <div className="flex items-center gap-2">
+        <div className="p-3.5 sm:p-5 border-b border-slate-100 flex items-center justify-between gap-2 sticky top-0 bg-white z-10">
+          <div className="flex items-center gap-2 min-w-0">
             <div className="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center">
               <FileText className="w-4 h-4" />
             </div>
             <div>
-              <h3 className="font-bold text-base text-slate-900">تقرير استخراج وتوثيق اللائحة</h3>
-              <p className="text-xs text-slate-500 font-mono">PDF Official Extraction Verification Report</p>
+              <h3 className="font-bold text-sm sm:text-base text-slate-900 break-words">تقرير استخراج وتوثيق اللائحة</h3>
+              <p className="hidden sm:block text-xs text-slate-500 font-mono">PDF Official Extraction Verification Report</p>
             </div>
           </div>
           <button
@@ -27,7 +27,7 @@ export default function DataReportModal({ isOpen, onClose, stats }) {
         </div>
 
         {/* Modal Content */}
-        <div className="p-5 sm:p-6 space-y-5 text-sm text-slate-700">
+        <div className="p-3.5 sm:p-6 space-y-5 text-sm text-slate-700">
           <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 flex items-start gap-3">
             <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
             <div>

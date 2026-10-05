@@ -276,15 +276,15 @@ export default function ChatWindow({
   };
 
   return (
-    <div className="flex flex-col h-[calc(100vh-64px)] max-w-4xl mx-auto w-full dir-rtl bg-slate-50 transition-all duration-300">
+    <div className="flex flex-col h-[calc(100dvh-64px)] max-w-4xl mx-auto w-full min-w-0 dir-rtl bg-slate-50 transition-all duration-300">
       {/* Top Banner / Program Status */}
-      <div className="bg-white border-b border-slate-200/90 px-4 py-2.5 flex items-center justify-between shadow-2xs z-10">
-        <div className="flex items-center gap-2">
+      <div className="bg-white border-b border-slate-200/90 px-3 sm:px-4 py-2.5 flex items-center justify-between gap-2 shadow-2xs z-10">
+        <div className="flex items-center gap-1.5 sm:gap-2 min-w-0">
           <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span className="text-xs text-slate-600 font-medium">البرنامج المحدد:</span>
+          <span className="text-[11px] sm:text-xs text-slate-600 font-medium whitespace-nowrap">البرنامج المحدد:</span>
           <button
             onClick={onOpenProgramSelector}
-            className="text-xs font-bold text-blue-600 hover:text-blue-700 bg-blue-50/80 hover:bg-blue-100/80 px-2 py-1 rounded-md flex items-center gap-1 min-h-[36px] transition-colors"
+            className="text-[11px] sm:text-xs font-bold text-blue-600 hover:text-blue-700 bg-blue-50/80 hover:bg-blue-100/80 px-2 py-1 rounded-md flex items-center gap-1 min-h-[36px] shrink-0 transition-colors"
           >
             <span>{currentProg.id === 'GENERAL' ? 'General' : currentProg.id}</span>
             <ChevronDown className="w-3.5 h-3.5 text-blue-500" />
@@ -294,7 +294,7 @@ export default function ChatWindow({
         {hasMessages && (
           <button
             onClick={handleClearChat}
-            className="text-[11px] font-semibold text-slate-400 hover:text-slate-600 flex items-center gap-1 transition px-2 py-1 rounded-lg hover:bg-slate-100 min-h-[32px]"
+            className="text-[11px] font-semibold text-slate-400 hover:text-slate-600 flex items-center gap-1 transition px-1.5 sm:px-2 py-1 rounded-lg hover:bg-slate-100 min-h-[32px] shrink-0"
             title="مسح المحادثة"
           >
             <RefreshCw className="w-3.5 h-3.5" />
@@ -306,12 +306,12 @@ export default function ChatWindow({
       {/* CHAT AREA: CENTERED INITIAL STATE OR ACTIVE SCROLL CONVERSATION */}
       {!hasMessages ? (
         /* 1. CENTERED EMPTY CHAT STATE */
-        <div className="flex-1 flex flex-col items-center justify-center p-4 sm:p-6 max-w-2xl mx-auto w-full min-h-[calc(100vh-120px)] animate-fade-in text-center">
+        <div className="flex-1 flex flex-col items-center justify-center p-3 sm:p-6 py-8 sm:py-6 max-w-2xl mx-auto w-full min-h-0 animate-fade-in text-center overflow-y-auto">
           <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-3xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mx-auto shadow-inner mb-4 animate-scale-up">
             <MessageSquare className="w-7 h-7 sm:w-8 sm:h-8" />
           </div>
 
-          <h1 className="font-extrabold text-xl sm:text-3xl text-slate-900 tracking-tight leading-tight">
+          <h1 className="font-extrabold text-lg sm:text-3xl text-slate-900 tracking-tight leading-tight px-2">
             مساعد مقررات الحاسبات والمعلومات
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-2 max-w-md font-medium leading-relaxed">
@@ -319,20 +319,20 @@ export default function ChatWindow({
           </p>
 
           {/* MAIN CENTERED COMPOSER FORM */}
-          <div className="w-full my-6">
+          <div className="w-full my-4 sm:my-6">
             <form
               onSubmit={(e) => {
                 e.preventDefault();
                 handleSendQuery();
               }}
-              className="relative w-full shadow-sm hover:shadow-md focus-within:shadow-md transition-all rounded-2xl bg-white border border-slate-200/90 focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500/20 p-1.5 flex items-center gap-2"
+              className="relative w-full shadow-sm hover:shadow-md focus-within:shadow-md transition-all rounded-2xl bg-white border border-slate-200/90 focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500/20 p-1.5 flex items-center gap-1.5 sm:gap-2"
             >
               <input
                 type="text"
                 value={inputQuery}
                 onChange={(e) => setInputQuery(e.target.value)}
                 placeholder="ابحث باسم المادة أو الكود (مثل: هياكل البيانات, CS200)..."
-                className="w-full pr-4 pl-12 py-3 bg-transparent text-sm text-slate-900 placeholder:text-slate-400 font-medium outline-none"
+                className="w-full min-w-0 pr-3 sm:pr-4 pl-1 py-3 bg-transparent text-[13px] sm:text-sm text-slate-900 placeholder:text-slate-400 font-medium outline-none"
               />
               <button
                 type="submit"
@@ -350,12 +350,12 @@ export default function ChatWindow({
             <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
               استفسارات مقترحة للبدء:
             </div>
-            <div className="flex flex-wrap gap-2 justify-center">
+            <div className="flex flex-wrap gap-1.5 sm:gap-2 justify-center">
               {suggestions.map((ex, idx) => (
                 <button
                   key={idx}
                   onClick={() => handleSendQuery(ex.query)}
-                  className="px-3.5 py-2.5 rounded-2xl bg-white hover:bg-blue-50/80 active:scale-95 text-slate-700 hover:text-blue-700 font-medium text-xs transition border border-slate-200/80 shadow-2xs flex items-center gap-1.5 min-h-[44px]"
+                  className="px-2.5 sm:px-3.5 py-2.5 rounded-2xl bg-white hover:bg-blue-50/80 active:scale-95 text-slate-700 hover:text-blue-700 font-medium text-[11px] sm:text-xs transition border border-slate-200/80 shadow-2xs flex items-center gap-1.5 min-h-[44px] max-w-full"
                 >
                   <Sparkles className="w-3.5 h-3.5 text-blue-500 shrink-0" />
                   <span>{ex.label}</span>
@@ -366,7 +366,7 @@ export default function ChatWindow({
         </div>
       ) : (
         /* 2. ACTIVE CONVERSATION MESSAGES AREA */
-        <div className="flex-1 overflow-y-auto px-3 sm:px-4 py-4 custom-scrollbar">
+        <div className="flex-1 min-h-0 overflow-y-auto px-2.5 sm:px-4 py-3 sm:py-4 custom-scrollbar">
           <div className="max-w-4xl mx-auto space-y-4">
             {messages.map((msg) => (
               <ChatMessage
@@ -396,20 +396,20 @@ export default function ChatWindow({
 
       {/* STICKY BOTTOM COMPOSER (WHEN ACTIVE CONVERSATION) */}
       {hasMessages && (
-        <div className="bg-white/90 backdrop-blur-md border-t border-slate-200/90 p-3 sm:p-4 sticky bottom-0 z-20 animate-slide-up">
+        <div className="bg-white/90 backdrop-blur-md border-t border-slate-200/90 px-2.5 sm:p-4 pt-2.5 pb-[calc(0.625rem+env(safe-area-inset-bottom))] sm:pb-4 sticky bottom-0 z-20 animate-slide-up">
           <form
             onSubmit={(e) => {
               e.preventDefault();
               handleSendQuery();
             }}
-            className="relative max-w-4xl mx-auto flex items-center gap-2"
+              className="relative max-w-4xl mx-auto flex items-center gap-2"
           >
             <input
               type="text"
               value={inputQuery}
               onChange={(e) => setInputQuery(e.target.value)}
               placeholder="اكتب مادة أخرى أو كود (مثل: هياكل البيانات, CS200)..."
-              className="w-full pr-4 pl-12 py-3 bg-slate-100 focus:bg-white border border-slate-200/90 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 rounded-2xl text-sm transition-all outline-none shadow-xs text-slate-900 placeholder:text-slate-400 font-medium"
+              className="w-full min-w-0 pr-3 sm:pr-4 pl-12 py-3 bg-slate-100 focus:bg-white border border-slate-200/90 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 rounded-2xl text-[13px] sm:text-sm transition-all outline-none shadow-xs text-slate-900 placeholder:text-slate-400 font-medium"
             />
             <button
               type="submit"

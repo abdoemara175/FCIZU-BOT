@@ -7,28 +7,28 @@ export default function Header({ selectedProgram, onOpenProgramSelector, onOpenR
 
   return (
     <header className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white shadow-md sticky top-0 z-30 dir-rtl">
-      <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="max-w-4xl mx-auto px-3 sm:px-4 py-2.5 sm:py-3 flex items-center justify-between gap-2">
         {/* App Title */}
-        <div className="flex items-center gap-2.5">
-          <div className="w-10 h-10 rounded-xl bg-blue-600/30 border border-blue-400/30 flex items-center justify-center text-blue-400 shadow-inner shrink-0">
+        <div className="flex items-center gap-2 min-w-0">
+          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-blue-600/30 border border-blue-400/30 flex items-center justify-center text-blue-400 shadow-inner shrink-0">
             <GraduationCap className="w-6 h-6" />
           </div>
-          <div>
-            <h1 className="font-bold text-base sm:text-lg tracking-tight text-white leading-tight">
+          <div className="min-w-0">
+            <h1 className="font-bold text-sm sm:text-lg tracking-tight text-white leading-tight truncate">
               مساعد مقررات الحاسبات
             </h1>
-            <p className="text-[11px] sm:text-xs text-slate-300 font-medium">
+            <p className="hidden sm:block text-xs text-slate-300 font-medium truncate">
               FCI Zagazig Course Assistant
             </p>
           </div>
         </div>
 
         {/* Right Side: Program Selector Button & Info Report */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           {/* Program Switcher Button (Short Code Only) */}
           <button
             onClick={onOpenProgramSelector}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-blue-600/40 hover:bg-blue-600/60 border border-blue-400/40 text-xs sm:text-sm font-bold text-blue-100 hover:text-white transition shadow-xs min-h-[44px]"
+            className="flex items-center gap-1 px-2 sm:px-3 py-1.5 rounded-xl bg-blue-600/40 hover:bg-blue-600/60 border border-blue-400/40 text-[11px] sm:text-sm font-bold text-blue-100 hover:text-white transition shadow-xs min-h-[44px]"
             title="تغيير التخصص الدراسي"
           >
             <span className="font-mono tracking-wide dir-ltr">
