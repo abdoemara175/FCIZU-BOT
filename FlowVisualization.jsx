@@ -1,186 +1,208 @@
 import React from 'react';
-import { ArrowLeft, GitCommit, Lock, Unlock } from 'lucide-react';
+import { ArrowDown, ArrowLeft, GitCommit, Lock, Unlock } from 'lucide-react';
 import { getCourseRequirementLabel } from './courseSearch.js';
+
+function getCourseInfo(course, selectedProgram) {
+  const displayCode = (course.codes_by_program && course.codes_by_program[selectedProgram]) || course.code;
+  const label = getCourseRequirementLabel(course, selectedProgram);
+  const isCompulsory = label === 'إجباري';
+
+  return {
+    displayCode,
+    label,
+    isCompulsory,
+    hours: course.is_non_credit ? '0 Hours / نجاح ورسوب' : `${course.credit_hours} ساعات معتمدة`,
+  };
+}
+
+function RelationCard({ course, selectedProgram, tone, onSelectCourse }) {
+  const info = getCourseInfo(course, selectedProgram);
+  const palette = tone === 'amber'
+    ? {
+        card: 'border-amber-400/40 bg-amber-950/40 hover:bg-amber-900/60',
+        code: 'border-amber-400/40 bg-amber-500/20 text-amber-200',
+        title: 'text-amber-100 group-hover:text-white',
+        meta: 'text-amber-200/80 border-amber-500/20',
+        icon: 'text-amber-300',
+      }
+    : {
+        card: 'border-emerald-400/40 bg-emerald-950/40 hover:bg-emerald-900/60',
+        code: 'border-emerald-400/40 bg-emerald-500/20 text-emerald-200',
+        title: 'text-emerald-100 group-hover:text-white',
+        meta: 'text-emerald-200/80 border-emerald-500/20',
+        icon: 'text-emerald-300',
+      };
+
+  return (
+    <button
+      type="button"
+      onClick={() => onSelectCourse && onSelectCourse(course)}
+      className={`group w-full text-right rounded-2xl border p-3.5 transition-all cursor-pointer shadow-sm hover:-translate-y-0.5 hover:shadow-lg ${palette.card}`}
+    >
+      <div className="flex items-start justify-between gap-2 mb-2">
+        <span className={`font-mono text-xs font-extrabold px-2 py-1 rounded-lg border dir-ltr shrink-0 ${palette.code}`}>
+          {info.displayCode}
+        </span>
+        <span className={`text-[10px] leading-4 font-bold px-2 py-0.5 rounded-md border text-right ${
+          info.isCompulsory
+            ? 'bg-emerald-500/20 text-emerald-200 border-emerald-400/40'
+            : 'bg-amber-500/20 text-amber-200 border-amber-400/40'
+        }`}>
+          {info.label}
+        </span>
+      </div>
+
+      <div className={`font-bold text-sm leading-relaxed break-words ${palette.title}`}>
+        {course.name_ar}
+      </div>
+      <div className={`font-mono text-[11px] leading-relaxed dir-ltr text-right break-words mt-0.5 ${palette.icon}`}>
+        {course.name_en}
+      </div>
+
+      <div className={`mt-2 pt-2 border-t flex flex-wrap items-center justify-between gap-x-2 gap-y-1 text-[11px] font-medium ${palette.meta}`}>
+        <span>{info.hours}</span>
+        <span>المستوى {course.level}</span>
+      </div>
+      {course.category && (
+        <div className={`mt-1 text-[10px] leading-relaxed break-words ${palette.icon}`}>
+          التصنيف: {course.category}
+        </div>
+      )}
+    </button>
+  );
+}
+
+function FlowConnector({ tone, label }) {
+  const color = tone === 'amber' ? 'text-amber-300 border-amber-400/40 bg-amber-500/10' : 'text-emerald-300 border-emerald-400/40 bg-emerald-500/10';
+  return (
+    <div className="flex shrink-0 items-center justify-center py-1 sm:py-0 sm:px-1">
+      <div className={`flex flex-col sm:flex-row items-center gap-1 rounded-full border px-2.5 py-1.5 text-[10px] font-bold ${color}`}>
+        <span className="hidden sm:block whitespace-nowrap">{label}</span>
+        <ArrowLeft className="hidden sm:block w-5 h-5" />
+        <ArrowDown className="sm:hidden w-5 h-5" />
+      </div>
+    </div>
+  );
+}
+
+function RelationColumn({ title, subtitle, icon: Icon, tone, courses, selectedProgram, onSelectCourse }) {
+  const titleColor = tone === 'amber' ? 'text-amber-300' : 'text-emerald-300';
+  return (
+    <section className="flex w-full min-w-0 flex-col gap-2 sm:w-[clamp(210px,27vw,280px)] sm:shrink-0">
+      <div className={`flex items-start gap-2 ${titleColor}`}>
+        <Icon className="mt-0.5 h-4 w-4 shrink-0" />
+        <div className="min-w-0">
+          <h5 className="text-xs font-extrabold leading-relaxed">{title}</h5>
+          <p className="text-[10px] font-medium text-slate-400 leading-relaxed">{subtitle}</p>
+        </div>
+        <span className="mr-auto rounded-full bg-slate-800 px-2 py-0.5 font-mono text-[10px] text-slate-300">
+          {courses.length}
+        </span>
+      </div>
+
+      {courses.length > 0 ? (
+        <div className="flex flex-col gap-2">
+          {courses.map((course) => (
+            <RelationCard
+              key={course.code}
+              course={course}
+              selectedProgram={selectedProgram}
+              tone={tone}
+              onSelectCourse={onSelectCourse}
+            />
+          ))}
+        </div>
+      ) : (
+        <div className="rounded-2xl border border-slate-700/70 bg-slate-800/60 px-3 py-4 text-center text-xs leading-relaxed text-slate-400">
+          لا توجد مواد في هذه الجهة
+        </div>
+      )}
+    </section>
+  );
+}
 
 export default function FlowVisualization({ currentCourse, courseMap, selectedProgram = 'GENERAL', onSelectCourse }) {
   if (!currentCourse) return null;
 
   const prereqs = (currentCourse.prerequisites || []).map((code) => courseMap[code]).filter(Boolean);
   const unlocks = (currentCourse.unlocks || []).map((code) => courseMap[code]).filter(Boolean);
-
-  const displayCode = (currentCourse.codes_by_program && currentCourse.codes_by_program[selectedProgram]) || currentCourse.code;
-  const currentReqInfo = (currentCourse.requirements_by_program && currentCourse.requirements_by_program[selectedProgram]) || {
-    type: currentCourse.requirement_type || 'compulsory',
-    label_ar: currentCourse.requirement_type_ar || 'إجباري'
-  };
-  const isCurrentCompulsory = currentReqInfo.type === 'compulsory' || currentReqInfo.label_ar === 'إجباري';
+  const currentInfo = getCourseInfo(currentCourse, selectedProgram);
 
   return (
-    <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 shadow-inner border border-slate-800 my-4 dir-rtl overflow-hidden">
-      <div className="flex items-center justify-between mb-3 pb-2.5 border-b border-slate-800">
-        <div className="flex items-center gap-2">
-          <GitCommit className="w-4 h-4 text-blue-400" />
-          <h4 className="font-bold text-sm sm:text-base text-white">
-            مسار العلاقات المباشرة (Horizontal RTL Course Flow)
-          </h4>
+    <div className="my-4 overflow-hidden rounded-3xl border border-slate-800 bg-slate-950 text-white shadow-inner dir-rtl">
+      <div className="border-b border-slate-800 bg-slate-900/70 px-3.5 py-3 sm:px-5">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <GitCommit className="h-4 w-4 text-blue-400" />
+            <h4 className="text-sm font-extrabold sm:text-base">تسلسل العلاقات بين المواد</h4>
+          </div>
+          <span className="rounded-full border border-slate-700 bg-slate-800/70 px-2.5 py-1 text-[10px] font-medium text-slate-400">
+            اضغط على أي مادة لعرض تفاصيلها
+          </span>
         </div>
-        <span className="text-[11px] font-medium text-slate-400 font-mono">
-          RTL (يمين إلى يسار)
-        </span>
+        <p className="mt-2 text-[11px] leading-relaxed text-slate-400">
+          الترتيب يوضح المتطلبات المباشرة للمادة الحالية، ثم المواد التي تفتحها مباشرة بعد اجتيازها.
+        </p>
       </div>
 
-      {/* Horizontal Flow Container (Scrollable on smaller screens) */}
-      <div className="overflow-x-auto custom-scrollbar pb-2">
-        <div className="flex items-center gap-3 sm:gap-5 min-w-max py-2 px-1">
-          {/* 1. DIRECT PREREQUISITES (FAR RIGHT IN RTL) */}
-          {prereqs.length > 0 && (
-            <div className="flex flex-col gap-2 shrink-0 min-w-[200px] max-w-[240px]">
-              <div className="flex items-center gap-1.5 text-xs font-bold text-amber-400 mb-0.5">
-                <Lock className="w-3.5 h-3.5" />
-                <span>المتطلبات السابقة (Required Before)</span>
-              </div>
-              {prereqs.map((p) => {
-                const pCode = (p.codes_by_program && p.codes_by_program[selectedProgram]) || p.code;
-                const pReqInfo = (p.requirements_by_program && p.requirements_by_program[selectedProgram]) || {
-                  type: p.requirement_type || 'compulsory',
-                  label_ar: p.requirement_type_ar || 'إجباري'
-                };
-                const isComp = pReqInfo.type === 'compulsory' || pReqInfo.label_ar === 'إجباري';
-                return (
-                  <div
-                    key={p.code}
-                    onClick={() => onSelectCourse && onSelectCourse(p)}
-                    className="bg-amber-950/40 hover:bg-amber-900/60 border border-amber-500/40 rounded-xl p-3 text-right transition cursor-pointer group shadow-xs"
-                  >
-                    <div className="flex items-center justify-between gap-2 mb-1">
-                      <span className="font-mono text-xs font-bold px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded border border-amber-500/30">
-                        {pCode}
-                      </span>
-                      <span
-                        className={`text-[10px] font-bold px-2 py-0.5 rounded border ${
-                          isComp
-                            ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-                            : 'bg-amber-500/20 text-amber-300 border-amber-500/40'
-                        }`}
-                      >
-                        {isComp ? 'Required / إجباري' : 'Elective / اختياري'}
-                      </span>
-                    </div>
-                    <div className="font-bold text-xs text-amber-100 group-hover:text-white transition line-clamp-1">
-                      {p.name_ar}
-                    </div>
-                    <div className="flex items-center justify-between text-[11px] text-amber-300/80 font-mono mt-1 pt-1 border-t border-amber-500/20">
-                      <span>{p.is_non_credit ? '0 Hours' : `${p.credit_hours} Hours`}</span>
-                      <span className="text-amber-200/60 text-[10px] font-mono truncate max-w-[100px]">{p.name_en}</span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
+      <div className="overflow-x-auto custom-scrollbar">
+        <div className="flex min-w-0 flex-col gap-2 p-3 sm:min-w-[720px] sm:flex-row sm:items-start sm:gap-2 sm:p-5">
+          <RelationColumn
+            title="المتطلبات السابقة"
+            subtitle="يجب اجتيازها قبل تسجيل المادة"
+            icon={Lock}
+            tone="amber"
+            courses={prereqs}
+            selectedProgram={selectedProgram}
+            onSelectCourse={onSelectCourse}
+          />
 
-          {/* ARROW LEFT BETWEEN PREREQS AND CURRENT COURSE */}
-          {prereqs.length > 0 && (
-            <div className="flex items-center text-amber-400 shrink-0">
-              <div className="flex items-center gap-1 bg-amber-500/10 px-2 py-1 rounded-full border border-amber-500/30 text-amber-300 text-xs font-mono">
-                <ArrowLeft className="w-5 h-5 text-amber-400 animate-pulse" />
-              </div>
-            </div>
-          )}
+          <FlowConnector tone="amber" label="تؤدي إلى" />
 
-          {/* 2. CURRENT / STARTING COURSE (MIDDLE / RIGHT) */}
-          <div className="shrink-0 min-w-[220px] max-w-[260px] bg-gradient-to-r from-blue-700 via-indigo-700 to-blue-800 rounded-2xl p-4 border-2 border-blue-400/60 shadow-lg text-right relative overflow-hidden">
-            <div className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-blue-400/30 text-blue-100 rounded-md inline-block mb-1.5">
-              المقرر الحالي (Selected)
-            </div>
-
-            <div className="flex items-center justify-between gap-2 mb-1">
-              <span className="font-mono text-sm font-extrabold px-2.5 py-0.5 bg-slate-950/80 text-blue-300 rounded-md border border-blue-400/40">
-                {displayCode}
+          <section className="w-full min-w-0 rounded-2xl border-2 border-blue-400/60 bg-gradient-to-br from-blue-700 via-indigo-700 to-blue-900 p-4 shadow-lg sm:w-[clamp(230px,30vw,300px)] sm:shrink-0">
+            <div className="mb-2 flex items-center justify-between gap-2">
+              <span className="rounded-md bg-blue-400/30 px-2 py-1 text-[10px] font-extrabold text-blue-100">
+                المادة الحالية
               </span>
-              <span
-                className={`text-[10px] font-bold px-2 py-0.5 rounded border ${
-                  isCurrentCompulsory
-                    ? 'bg-emerald-400/20 text-emerald-200 border-emerald-400/40'
-                    : 'bg-amber-400/20 text-amber-200 border-amber-400/40'
-                }`}
-              >
-                {isCurrentCompulsory ? 'Required / إجباري' : 'Elective / اختياري'}
+              <span className="rounded-lg border border-blue-300/50 bg-slate-950/70 px-2 py-1 font-mono text-xs font-extrabold text-blue-200 dir-ltr">
+                {currentInfo.displayCode}
               </span>
             </div>
-
-            <h4 className="font-extrabold text-sm sm:text-base text-white mb-0.5 leading-snug">
+            <div className="mb-1 text-sm font-extrabold leading-relaxed text-white break-words">
               {currentCourse.name_ar}
-            </h4>
-            <p className="font-mono text-[11px] text-blue-200 font-medium mb-2 dir-ltr text-right">
+            </div>
+            <div className="font-mono text-[11px] leading-relaxed text-blue-100 dir-ltr text-right break-words">
               {currentCourse.name_en}
-            </p>
-
-            <div className="pt-2 border-t border-blue-400/30 text-[11px] font-semibold text-blue-100 flex items-center justify-between font-mono">
-              <span>{currentCourse.is_non_credit ? '0 Hours' : `${currentCourse.credit_hours} Hours`}</span>
-              <span>المستوى {currentCourse.level}</span>
             </div>
-          </div>
-
-          {/* ARROW LEFT BETWEEN CURRENT COURSE AND DIRECT UNLOCKS */}
-          {unlocks.length > 0 && (
-            <div className="flex items-center text-emerald-400 shrink-0">
-              <div className="flex items-center gap-1 bg-emerald-500/10 px-2 py-1 rounded-full border border-emerald-500/30 text-emerald-300 text-xs font-mono">
-                <ArrowLeft className="w-5 h-5 text-emerald-400 animate-pulse" />
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              <span className="rounded-md border border-blue-300/40 bg-blue-400/20 px-2 py-1 text-[10px] font-bold text-blue-100">
+                {currentInfo.label}
+              </span>
+              <span className="rounded-md border border-blue-300/40 bg-blue-400/20 px-2 py-1 text-[10px] font-bold text-blue-100">
+                {currentInfo.hours}
+              </span>
+              <span className="rounded-md border border-blue-300/40 bg-blue-400/20 px-2 py-1 text-[10px] font-bold text-blue-100">
+                المستوى {currentCourse.level}
+              </span>
+            </div>
+            {currentCourse.category && (
+              <div className="mt-2 border-t border-blue-300/30 pt-2 text-[10px] leading-relaxed text-blue-100 break-words">
+                التصنيف: {currentCourse.category}
               </div>
-            </div>
-          )}
+            )}
+          </section>
 
-          {/* 3. DIRECT UNLOCKS (EXTENDING TO THE LEFT) */}
-          {unlocks.length > 0 ? (
-            <div className="flex flex-col gap-2 shrink-0 min-w-[200px] max-w-[240px]">
-              <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-400 mb-0.5">
-                <Unlock className="w-3.5 h-3.5" />
-                <span>المقــررات المفتوحة مباشرة (Direct Unlocks)</span>
-              </div>
-              {unlocks.map((u) => {
-                const uCode = (u.codes_by_program && u.codes_by_program[selectedProgram]) || u.code;
-                const uReqInfo = (u.requirements_by_program && u.requirements_by_program[selectedProgram]) || {
-                  type: u.requirement_type || 'compulsory',
-                  label_ar: u.requirement_type_ar || 'إجباري'
-                };
-                const isComp = uReqInfo.type === 'compulsory' || uReqInfo.label_ar === 'إجباري';
-                return (
-                  <div
-                    key={u.code}
-                    onClick={() => onSelectCourse && onSelectCourse(u)}
-                    className="bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-500/40 rounded-xl p-3 text-right transition cursor-pointer group shadow-xs"
-                  >
-                    <div className="flex items-center justify-between gap-2 mb-1">
-                      <span className="font-mono text-xs font-bold px-2 py-0.5 bg-emerald-500/20 text-emerald-300 rounded border border-emerald-500/30">
-                        {uCode}
-                      </span>
-                      <span
-                        className={`text-[10px] font-bold px-2 py-0.5 rounded border ${
-                          isComp
-                            ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-                            : 'bg-amber-500/20 text-amber-300 border-amber-500/40'
-                        }`}
-                      >
-                        {isComp ? 'Required / إجباري' : 'Elective / اختياري'}
-                      </span>
-                    </div>
-                    <div className="font-bold text-xs text-emerald-100 group-hover:text-white transition line-clamp-1">
-                      {u.name_ar}
-                    </div>
-                    <div className="flex items-center justify-between text-[11px] text-emerald-300/80 font-mono mt-1 pt-1 border-t border-emerald-500/20">
-                      <span>{u.is_non_credit ? '0 Hours' : `${u.credit_hours} Hours`}</span>
-                      <span className="text-emerald-200/60 text-[10px] font-mono truncate max-w-[100px]">{u.name_en}</span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          ) : (
-            <div className="text-xs text-slate-400 bg-slate-800/60 rounded-xl px-4 py-3 border border-slate-700/50 shrink-0">
-              هذا المقرر لا يفتح مقررات أخرى مباشرة
-            </div>
-          )}
+          <FlowConnector tone="emerald" label="تفتح" />
+
+          <RelationColumn
+            title="المواد المفتوحة مباشرة"
+            subtitle="تصبح متاحة بعد اجتياز المادة الحالية"
+            icon={Unlock}
+            tone="emerald"
+            courses={unlocks}
+            selectedProgram={selectedProgram}
+            onSelectCourse={onSelectCourse}
+          />
         </div>
       </div>
     </div>
