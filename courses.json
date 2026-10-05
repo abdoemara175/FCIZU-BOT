@@ -1,0 +1,6541 @@
+[
+  {
+    "id": "HU100",
+    "code": "HU100",
+    "name_en": "English",
+    "name_ar": "اللغة الإنجليزية",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "HU100",
+      "IS": "HU100",
+      "GI": "HU100",
+      "IT": "HU100",
+      "DS": "HU100"
+    },
+    "note": "University General Requirement",
+    "unlocks": [
+      "HU101"
+    ]
+  },
+  {
+    "id": "HU101",
+    "code": "HU101",
+    "name_en": "Report Writing and Presentation Skills",
+    "name_ar": "كتابة التقارير ومهارات العرض",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [
+      "HU100"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "HU101",
+      "IS": "HU101",
+      "GI": "HU101",
+      "IT": "HU101",
+      "DS": "HU101"
+    },
+    "note": "University General Requirement",
+    "unlocks": []
+  },
+  {
+    "id": "HU102",
+    "code": "HU102",
+    "name_en": "Social, Ethical, and Professional Issues in Computing",
+    "name_ar": "القضايا الاجتماعية والأخلاقية والمهنية في الحوسبة",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "HU102",
+      "IS": "HU102",
+      "GI": "HU102",
+      "IT": "HU102",
+      "DS": "HU102"
+    },
+    "note": "University General Requirement",
+    "unlocks": []
+  },
+  {
+    "id": "HU103",
+    "code": "HU103",
+    "name_en": "Human Rights and Anticorruption",
+    "name_ar": "حقوق الانسان ومكافحة الفساد",
+    "credit_hours": 0,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "HU103",
+      "IS": "HU103",
+      "GI": "HU103",
+      "IT": "HU103",
+      "DS": "HU103"
+    },
+    "is_non_credit": true,
+    "note": "Pass/Fail non-credit course (مادة نجاح ورسوب ولا تحسب في المجموع الكلي أو التراكمي)",
+    "unlocks": []
+  },
+  {
+    "id": "HU104",
+    "code": "HU104",
+    "name_en": "Organizational Behavior",
+    "name_ar": "السلوك التنظيمي",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU104",
+      "IS": "HU104",
+      "GI": "HU104",
+      "IT": "HU104",
+      "DS": "HU104"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU105",
+    "code": "HU105",
+    "name_en": "Communication and Negotiation Skills",
+    "name_ar": "مهارات الاتصال والتفاوض",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU105",
+      "IS": "HU105",
+      "GI": "HU105",
+      "IT": "HU105",
+      "DS": "HU105"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU106",
+    "code": "HU106",
+    "name_en": "Strategic Planning",
+    "name_ar": "التخطيط الاستراتيجي",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU106",
+      "IS": "HU106",
+      "GI": "HU106",
+      "IT": "HU106",
+      "DS": "HU106"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU107",
+    "code": "HU107",
+    "name_en": "Fundamentals of Management",
+    "name_ar": "أساسيات الإدارة",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU107",
+      "IS": "HU107",
+      "GI": "HU107",
+      "IT": "HU107",
+      "DS": "HU107"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU108",
+    "code": "HU108",
+    "name_en": "Fundamentals of Economics and Feasibility Study",
+    "name_ar": "أساسيات الاقتصاد ودراسات الجدوى",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU108",
+      "IS": "HU108",
+      "GI": "HU108",
+      "IT": "HU108",
+      "DS": "HU108"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU109",
+    "code": "HU109",
+    "name_en": "Business Management",
+    "name_ar": "إدارة الأعمال",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU109",
+      "IS": "HU109",
+      "GI": "HU109",
+      "IT": "HU109",
+      "DS": "HU109"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU110",
+    "code": "HU110",
+    "name_en": "Entrepreneurship and Innovation",
+    "name_ar": "ريادة الأعمال والابتكار",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU110",
+      "IS": "HU110",
+      "GI": "HU110",
+      "IT": "HU110",
+      "DS": "HU110"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU111",
+    "code": "HU111",
+    "name_en": "Digital Marketing",
+    "name_ar": "التسويق الرقمي",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU111",
+      "IS": "HU111",
+      "GI": "HU111",
+      "IT": "HU111",
+      "DS": "HU111"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU112",
+    "code": "HU112",
+    "name_en": "Fundamentals of Accounting",
+    "name_ar": "مبادئ المحاسبة",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU112",
+      "IS": "HU112",
+      "GI": "HU112",
+      "IT": "HU112",
+      "DS": "HU112"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "HU113",
+    "code": "HU113",
+    "name_en": "Fundamentals of Grant Writing",
+    "name_ar": "أساسيات كتابة المنح",
+    "credit_hours": 2,
+    "lecture_hours": 2,
+    "lab_hours": 0,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "GI": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "IT": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)",
+      "DS": "University Elective (متطلبات جامعة اختيارية - 6 ساعات)"
+    },
+    "codes_by_program": {
+      "CS": "HU113",
+      "IS": "HU113",
+      "GI": "HU113",
+      "IT": "HU113",
+      "DS": "HU113"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "BS100",
+    "code": "BS100",
+    "name_en": "Mathematics I",
+    "name_ar": "الرياضيات I",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "BS100",
+      "IS": "BS100",
+      "GI": "BS100",
+      "IT": "BS100",
+      "DS": "BS100"
+    },
+    "unlocks": [
+      "BS101",
+      "BS103",
+      "CS103"
+    ]
+  },
+  {
+    "id": "BS101",
+    "code": "BS101",
+    "name_en": "Mathematics II",
+    "name_ar": "الرياضيات II",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [
+      "BS100"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "BS101",
+      "IS": "BS101",
+      "GI": "BS101",
+      "IT": "BS101",
+      "DS": "BS101"
+    },
+    "unlocks": [
+      "BS201",
+      "IT201",
+      "IT300"
+    ]
+  },
+  {
+    "id": "BS102",
+    "code": "BS102",
+    "name_en": "Physics for Computing",
+    "name_ar": "فيزياء الحاسب",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "BS102",
+      "IS": "BS102",
+      "GI": "BS102",
+      "IT": "BS102",
+      "DS": "BS102"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "BS103",
+    "code": "BS103",
+    "name_en": "Probability and Statistics",
+    "name_ar": "الإحصاء والاحتمالات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [
+      "BS100"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "BS103",
+      "IS": "BS103",
+      "GI": "BS103",
+      "IT": "BS103",
+      "DS": "BS103"
+    },
+    "unlocks": [
+      "DS301"
+    ]
+  },
+  {
+    "id": "BS201",
+    "code": "BS201",
+    "name_en": "Mathematics III",
+    "name_ar": "الرياضيات III",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "BS101"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "BS201",
+      "IS": "BS201",
+      "GI": "BS201",
+      "IT": "BS201",
+      "DS": "BS201"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT100",
+    "code": "IT100",
+    "name_en": "Digital Logic Design",
+    "name_ar": "التصميم المنطقي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT100",
+      "IS": "IT100",
+      "GI": "IT100",
+      "IT": "IT100",
+      "DS": "IT100"
+    },
+    "unlocks": [
+      "IT200"
+    ]
+  },
+  {
+    "id": "DS100",
+    "code": "DS100",
+    "name_en": "Operations Research",
+    "name_ar": "بحوث العمليات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "DS100",
+      "IS": "DS100",
+      "GI": "DS100",
+      "IT": "DS100",
+      "DS": "DS100"
+    },
+    "unlocks": [
+      "DS300",
+      "DS301",
+      "DS302",
+      "DS303",
+      "DS400",
+      "DS401",
+      "DS404",
+      "DS405",
+      "DS304",
+      "DS407",
+      "DS408",
+      "DS413",
+      "DS415"
+    ]
+  },
+  {
+    "id": "CS103",
+    "code": "CS103",
+    "name_en": "Discrete Structures",
+    "name_ar": "تراكيب محددة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [
+      "BS100"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS103",
+      "IS": "CS103",
+      "GI": "CS103",
+      "IT": "CS103",
+      "DS": "CS103"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS100",
+    "code": "CS100",
+    "name_en": "Introduction to Computational Thinking",
+    "name_ar": "مقدمة في التفكير الحسابي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS100",
+      "IS": "CS100",
+      "GI": "CS100",
+      "IT": "CS100",
+      "DS": "CS100"
+    },
+    "unlocks": [
+      "CS201"
+    ]
+  },
+  {
+    "id": "CS101",
+    "code": "CS101",
+    "name_en": "Computer Programming I",
+    "name_ar": "برمجة الحاسب I",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS101",
+      "IS": "CS101",
+      "GI": "CS101",
+      "IT": "CS101",
+      "DS": "CS101"
+    },
+    "unlocks": [
+      "CS102"
+    ]
+  },
+  {
+    "id": "CS102",
+    "code": "CS102",
+    "name_en": "Computer Programming II",
+    "name_ar": "برمجة الحاسب II",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 1,
+    "semester": null,
+    "prerequisites": [
+      "CS101"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS102",
+      "IS": "CS102",
+      "GI": "CS102",
+      "IT": "CS102",
+      "DS": "CS102"
+    },
+    "unlocks": [
+      "CS200",
+      "IS200"
+    ]
+  },
+  {
+    "id": "CS200",
+    "code": "CS200",
+    "name_en": "Data Structures",
+    "name_ar": "هياكل البيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "CS102"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS200",
+      "IS": "CS200",
+      "GI": "CS200",
+      "IT": "CS200",
+      "DS": "CS200"
+    },
+    "unlocks": [
+      "CS202",
+      "CS203",
+      "IT301",
+      "IT303",
+      "IT304",
+      "IT302",
+      "CS300",
+      "CS302",
+      "CS401",
+      "CS411",
+      "IS414",
+      "IT305",
+      "IT308",
+      "IT416"
+    ]
+  },
+  {
+    "id": "IT200",
+    "code": "IT200",
+    "name_en": "Computer Organization and Architecture",
+    "name_ar": "معمارية وتنظيم الحاسب",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "IT100"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT200",
+      "IS": "IT200",
+      "GI": "IT200",
+      "IT": "IT200",
+      "DS": "IT200"
+    },
+    "unlocks": [
+      "IT307",
+      "IT404",
+      "IT409"
+    ]
+  },
+  {
+    "id": "IS200",
+    "code": "IS200",
+    "name_en": "Database Systems",
+    "name_ar": "نظم قواعد البيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "CS102"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IS200",
+      "IS": "IS200",
+      "GI": "IS200",
+      "IT": "IS200",
+      "DS": "IS200"
+    },
+    "unlocks": [
+      "IS201",
+      "IS303",
+      "IS300",
+      "GI300",
+      "IS402",
+      "IS410"
+    ]
+  },
+  {
+    "id": "IT201",
+    "code": "IT201",
+    "name_en": "Computer Graphics",
+    "name_ar": "الرسم بالحاسب",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "BS101"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT201",
+      "IS": "IT201",
+      "GI": "IT201",
+      "IT": "IT201",
+      "DS": "IT201"
+    },
+    "unlocks": [
+      "IT203"
+    ]
+  },
+  {
+    "id": "CS201",
+    "code": "CS201",
+    "name_en": "Operating Systems",
+    "name_ar": "نظم التشغيل",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "CS100"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS201",
+      "IS": "CS201",
+      "GI": "CS201",
+      "IT": "CS201",
+      "DS": "CS201"
+    },
+    "unlocks": [
+      "IT202",
+      "CS301",
+      "CS400",
+      "CS413",
+      "IT414"
+    ]
+  },
+  {
+    "id": "IS201",
+    "code": "IS201",
+    "name_en": "Systems Analysis and Design",
+    "name_ar": "تحليل وتصميم النظم",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "IS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IS201",
+      "IS": "IS201",
+      "GI": "IS201",
+      "IT": "IS201",
+      "DS": "IS201"
+    },
+    "unlocks": [
+      "CS304",
+      "CS406",
+      "GI300",
+      "IS301",
+      "IS304",
+      "IS406",
+      "IS405",
+      "IS417",
+      "IS408",
+      "IS409",
+      "IS412",
+      "IS415",
+      "IS416",
+      "IS418",
+      "IS419",
+      "IS420",
+      "IS422",
+      "GI409"
+    ]
+  },
+  {
+    "id": "CS202",
+    "code": "CS202",
+    "name_en": "Analysis and Design of Algorithms",
+    "name_ar": "تحليل وتصميم الخوارزميات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS202",
+      "IS": "CS202",
+      "GI": "CS202",
+      "IT": "CS202",
+      "DS": "CS202"
+    },
+    "unlocks": [
+      "CS402",
+      "CS404"
+    ]
+  },
+  {
+    "id": "IT203",
+    "code": "IT203",
+    "name_en": "Multimedia",
+    "name_ar": "الوسائط المتعددة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "IT201"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT203",
+      "IS": "IT203",
+      "GI": "IT203",
+      "IT": "IT203",
+      "DS": "IT203"
+    },
+    "unlocks": [
+      "IT403",
+      "IT405",
+      "IT407",
+      "IT411",
+      "IT412"
+    ]
+  },
+  {
+    "id": "CS203",
+    "code": "CS203",
+    "name_en": "Artificial Intelligence",
+    "name_ar": "الذكاء الاصطناعي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS203",
+      "IS": "CS203",
+      "GI": "CS203",
+      "IT": "CS203",
+      "DS": "CS203"
+    },
+    "unlocks": [
+      "CS303",
+      "CS403",
+      "CS408",
+      "CS412",
+      "CS405",
+      "DS403"
+    ]
+  },
+  {
+    "id": "IT202",
+    "code": "IT202",
+    "name_en": "Computer Networks",
+    "name_ar": "شبكات الحاسب",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 2,
+    "semester": null,
+    "prerequisites": [
+      "CS201"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT202",
+      "IS": "IT202",
+      "GI": "IT202",
+      "IT": "IT202",
+      "DS": "IT202"
+    },
+    "unlocks": [
+      "IT306",
+      "IT402",
+      "IT406",
+      "IT408",
+      "IT410",
+      "IT413",
+      "IT417"
+    ]
+  },
+  {
+    "id": "IT301",
+    "code": "IT301",
+    "name_en": "Web and Network Programming",
+    "name_ar": "برمجة الشبكات والانترنت",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT301",
+      "IS": "IT301",
+      "GI": "IT301",
+      "IT": "IT301",
+      "DS": "IT301"
+    },
+    "unlocks": [
+      "IS413",
+      "GI404"
+    ]
+  },
+  {
+    "id": "DS300",
+    "code": "DS300",
+    "name_en": "Software Project Management",
+    "name_ar": "إدارة مشروعات البرمجيات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "DS300",
+      "IS": "DS300",
+      "GI": "DS300",
+      "IT": "DS300",
+      "DS": "DS300"
+    },
+    "unlocks": [
+      "DS419"
+    ]
+  },
+  {
+    "id": "IS303",
+    "code": "IS303",
+    "name_en": "Introduction to Big Data",
+    "name_ar": "مقدمة في البيانات الضخمة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IS303",
+      "IS": "IS303",
+      "GI": "IS303",
+      "IT": "IS303",
+      "DS": "IS303"
+    },
+    "unlocks": [
+      "IS400",
+      "IS407",
+      "GI411"
+    ]
+  },
+  {
+    "id": "IT303",
+    "code": "IT303",
+    "name_en": "Introduction to Cloud Computing",
+    "name_ar": "مقدمة في الحوسبة السحابية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT303",
+      "IS": "IT303",
+      "GI": "IT303",
+      "IT": "IT303",
+      "DS": "IT303"
+    },
+    "unlocks": [
+      "IS421",
+      "GI413"
+    ]
+  },
+  {
+    "id": "IT304",
+    "code": "IT304",
+    "name_en": "Introduction to Cybersecurity",
+    "name_ar": "مقدمة في الأمن السيبراني",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT304",
+      "IS": "IT304",
+      "GI": "IT304",
+      "IT": "IT304",
+      "DS": "IT304"
+    },
+    "unlocks": [
+      "CS409",
+      "IS401",
+      "IS403",
+      "GI412",
+      "IT402"
+    ]
+  },
+  {
+    "id": "IT302",
+    "code": "IT302",
+    "name_en": "Introduction to Internet of Things",
+    "name_ar": "مقدمة في إنترنت الأشياء",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "GI",
+      "IT",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "IT302",
+      "IS": "IT302",
+      "GI": "IT302",
+      "IT": "IT302",
+      "DS": "IT302"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS300",
+    "code": "CS300",
+    "name_en": "Human Computer Interaction",
+    "name_ar": "التفاعل بين الانسان والالة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS",
+      "IS",
+      "IT"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات)",
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات)"
+    },
+    "codes_by_program": {
+      "CS": "CS300",
+      "IS": "CS300",
+      "IT": "CS300"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS301",
+    "code": "CS301",
+    "name_en": "Systems Programming",
+    "name_ar": "برمجة النظم",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS201"
+    ],
+    "programs": [
+      "CS",
+      "IT"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات)"
+    },
+    "codes_by_program": {
+      "CS": "CS301",
+      "IT": "CS301"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS302",
+    "code": "CS302",
+    "name_en": "Formal Languages",
+    "name_ar": "اللغات الصورية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS302"
+    },
+    "unlocks": [
+      "CS410"
+    ]
+  },
+  {
+    "id": "CS303",
+    "code": "CS303",
+    "name_en": "Machine Learning",
+    "name_ar": "تعلم الآلة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS203"
+    ],
+    "programs": [
+      "CS",
+      "IT"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات)"
+    },
+    "codes_by_program": {
+      "CS": "CS303",
+      "IT": "CS303"
+    },
+    "unlocks": [
+      "CS407"
+    ]
+  },
+  {
+    "id": "CS304",
+    "code": "CS304",
+    "name_en": "Software Testing and Maintenance",
+    "name_ar": "اختبار وصيانة البرمجيات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS304"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS400",
+    "code": "CS400",
+    "name_en": "High Performance Computing",
+    "name_ar": "الحوسبة فائقة الأداء",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS201"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS400"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS401",
+    "code": "CS401",
+    "name_en": "Compiler Design",
+    "name_ar": "تصميم المترجمات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS401"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS402",
+    "code": "CS402",
+    "name_en": "Distributed and Concurrent Algorithms",
+    "name_ar": "الخوارزميات الموزعة والمتزامنة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS202"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS402"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS403",
+    "code": "CS403",
+    "name_en": "Neural networks and deep learning",
+    "name_ar": "الشبكات العصبية والتعلم العميق",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS203"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS403"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS430",
+    "code": "CS430",
+    "name_en": "Project I (CS)",
+    "name_ar": "المشروع I (علوم الحاسب)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS430"
+    },
+    "note": "Graduation Project I",
+    "unlocks": [
+      "CS431"
+    ]
+  },
+  {
+    "id": "CS431",
+    "code": "CS431",
+    "name_en": "Project II (CS)",
+    "name_ar": "المشروع II (علوم الحاسب)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS430"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "CS": "CS431"
+    },
+    "note": "Graduation Project II",
+    "unlocks": []
+  },
+  {
+    "id": "CS404",
+    "code": "CS404",
+    "name_en": "Bioinformatics",
+    "name_ar": "المعلوماتية الحيوية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS202"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS404"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS406",
+    "code": "CS406",
+    "name_en": "Software Design and Architecture",
+    "name_ar": "معمارية وتصميم البرمجيات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS406"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS407",
+    "code": "CS407",
+    "name_en": "Natural Language Processing",
+    "name_ar": "معالجة اللغات الطبيعية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS303"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS407"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS408",
+    "code": "CS408",
+    "name_en": "Soft Computing",
+    "name_ar": "الحوسبة المرنة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS203"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS408"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS409",
+    "code": "CS409",
+    "name_en": "Introduction to Cryptography",
+    "name_ar": "مقدمة في التشفير",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT304"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS409"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS410",
+    "code": "CS410",
+    "name_en": "Theory of Computation",
+    "name_ar": "نظرية الحسابات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS302"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS410"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS411",
+    "code": "CS411",
+    "name_en": "Programming Language Design",
+    "name_ar": "تصميم لغات البرمجة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS411"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS412",
+    "code": "CS412",
+    "name_en": "Intelligent Agents",
+    "name_ar": "عملاء أذكياء",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS203"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS412"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS413",
+    "code": "CS413",
+    "name_en": "Computer Systems Performance",
+    "name_ar": "أداء نظم الحاسب الالي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS201"
+    ],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS413"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS425",
+    "code": "CS425",
+    "name_en": "Selected Topics in Computer Science I",
+    "name_ar": "موضوعات مختارة في علوم الحاسب I",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS425"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS426",
+    "code": "CS426",
+    "name_en": "Selected Topics in Computer Science II",
+    "name_ar": "موضوعات مختارة في علوم الحاسب II",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "CS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS426"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "CS405",
+    "code": "CS405",
+    "name_en": "Fuzzy Logic and Intelligent Systems",
+    "name_ar": "المنطق الضبابي والأنظمة الذكية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS203"
+    ],
+    "programs": [
+      "CS",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)",
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "CS": "CS405",
+      "DS": "CS416"
+    },
+    "note": "Code is CS405 in CS program tables and CS416 in DS program tables",
+    "unlocks": []
+  },
+  {
+    "id": "IS300",
+    "code": "IS300",
+    "name_en": "Database Management Systems",
+    "name_ar": "نظم إدارة قواعد بيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IS200"
+    ],
+    "programs": [
+      "IS",
+      "GI"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS300",
+      "GI": "IS300"
+    },
+    "unlocks": [
+      "IS411"
+    ]
+  },
+  {
+    "id": "GI300",
+    "code": "GI300",
+    "name_en": "Geographical Information Systems",
+    "name_ar": "نظم المعلومات الجغرافية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IS200",
+      "IS201"
+    ],
+    "programs": [
+      "IS",
+      "GI"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "GI300",
+      "GI": "GI300"
+    },
+    "note": "Requires multiple prerequisites IS200 AND IS201",
+    "unlocks": [
+      "GI301",
+      "GI302",
+      "GI400",
+      "GI401",
+      "GI402",
+      "GI403",
+      "GI404",
+      "GI405",
+      "GI406",
+      "GI407",
+      "GI408",
+      "GI414"
+    ]
+  },
+  {
+    "id": "IS301",
+    "code": "IS301",
+    "name_en": "Intelligent Systems and Business Intelligence",
+    "name_ar": "الأنظمة الذكية وذكاء الاعمال",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS301"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS304",
+    "code": "IS304",
+    "name_en": "E-Business",
+    "name_ar": "الأعمال الإلكترونية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS304"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS400",
+    "code": "IS400",
+    "name_en": "Big Data Analytics",
+    "name_ar": "تحليلات البيانات الضخمة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS303"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS400"
+    },
+    "unlocks": [
+      "IS404"
+    ]
+  },
+  {
+    "id": "IS401",
+    "code": "IS401",
+    "name_en": "Information Security",
+    "name_ar": "أمن المعلومات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT304"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS401"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS402",
+    "code": "IS402",
+    "name_en": "Distributed and Mobile Databases",
+    "name_ar": "نظم قواعد البيانات الموزعة والمحمولة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS200"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS402"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS406",
+    "code": "IS406",
+    "name_en": "Information Retrieval",
+    "name_ar": "استرجاع المعلومات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS406"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS405",
+    "code": "IS405",
+    "name_en": "Data Mining and Machine Learning",
+    "name_ar": "التنقيب في البيانات والتعلم الآلة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS",
+      "DS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS405",
+      "DS": "IS405"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS430",
+    "code": "IS430",
+    "name_en": "Project I (IS)",
+    "name_ar": "المشروع I (نظم المعلومات)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS430"
+    },
+    "note": "Graduation Project I",
+    "unlocks": [
+      "IS431"
+    ]
+  },
+  {
+    "id": "IS431",
+    "code": "IS431",
+    "name_en": "Project II (IS)",
+    "name_ar": "المشروع II (نظم المعلومات)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS430"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IS": "IS431"
+    },
+    "note": "Graduation Project II",
+    "unlocks": []
+  },
+  {
+    "id": "IS403",
+    "code": "IS403",
+    "name_en": "Blockchain Technologies",
+    "name_ar": "تقنية سلسلة الكتل",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT304"
+    ],
+    "programs": [
+      "IS",
+      "GI"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)",
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS403",
+      "GI": "IS403"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS417",
+    "code": "IS417",
+    "name_en": "Multimedia Information Systems",
+    "name_ar": "نظم معلومات الوسائط المتعددة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS",
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      },
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)",
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS417",
+      "IT": "IS417"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS404",
+    "code": "IS404",
+    "name_en": "Web and Social Media Analytics",
+    "name_ar": "تحليلات الويب والوسائط الاجتماعية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS400"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS404"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS407",
+    "code": "IS407",
+    "name_en": "Data Visualization",
+    "name_ar": "عرض مرئي للبيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS303"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS407"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS408",
+    "code": "IS408",
+    "name_en": "Software Engineering",
+    "name_ar": "هندسة البرمجيات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS408"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS409",
+    "code": "IS409",
+    "name_en": "Database Administration",
+    "name_ar": "إدارة قواعد البيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS409"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS410",
+    "code": "IS410",
+    "name_en": "Managing Digital Firms",
+    "name_ar": "إدارة الشركات الرقمية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS200"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS410"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS411",
+    "code": "IS411",
+    "name_en": "Data Warehousing",
+    "name_ar": "مستودعات البيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS300"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS411"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS412",
+    "code": "IS412",
+    "name_en": "Business Process Management",
+    "name_ar": "إدارة عمليات الأعمال",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS412"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS413",
+    "code": "IS413",
+    "name_en": "Web-based Information Systems",
+    "name_ar": "نظم المعلومات على شبكة الإنترنت",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT301"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS413"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS414",
+    "code": "IS414",
+    "name_en": "Business Analytics Programming",
+    "name_ar": "برمجة تحليل الأعمال",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS414"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS415",
+    "code": "IS415",
+    "name_en": "Enterprise Information Systems",
+    "name_ar": "نظم معلومات المؤسسة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS415"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS416",
+    "code": "IS416",
+    "name_en": "Information Systems Auditing",
+    "name_ar": "تدقيق نظم المعلومات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS416"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS418",
+    "code": "IS418",
+    "name_en": "Software Requirements Analysis",
+    "name_ar": "تحليل متطلبات البرمجيات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS418"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS419",
+    "code": "IS419",
+    "name_en": "Systems Design Patterns",
+    "name_ar": "أنماط تصميم النظم",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS419"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS420",
+    "code": "IS420",
+    "name_en": "Knowledge Management",
+    "name_ar": "إدارة المعرفة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS420"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS421",
+    "code": "IS421",
+    "name_en": "Cloud Databases",
+    "name_ar": "قواعد البيانات السحابية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT303"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS421"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS422",
+    "code": "IS422",
+    "name_en": "Information Systems Quality Assurance",
+    "name_ar": "ضمان جودة نظم المعلومات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS422"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS425",
+    "code": "IS425",
+    "name_en": "Selected Topics in Information Systems I",
+    "name_ar": "موضوعات مختارة في نظم المعلومات I",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS425"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IS426",
+    "code": "IS426",
+    "name_en": "Selected Topics in Information Systems II",
+    "name_ar": "موضوعات مختارة في نظم المعلومات II",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "IS"
+    ],
+    "requirements_by_program": {
+      "IS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IS": "IS Department Electives (اختياري نظم المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IS": "IS426"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI301",
+    "code": "GI301",
+    "name_en": "Principles of Remote Sensing",
+    "name_ar": "مبادئ الاستشعار عن بعد",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI301"
+    },
+    "unlocks": [
+      "GI410"
+    ]
+  },
+  {
+    "id": "GI302",
+    "code": "GI302",
+    "name_en": "Spatial Database",
+    "name_ar": "قواعد البيانات المكانية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI302"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI400",
+    "code": "GI400",
+    "name_en": "Digital Cartography and Visualization",
+    "name_ar": "الكارتوجرافيا الرقمية والتجسيد المرئي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI400"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI401",
+    "code": "GI401",
+    "name_en": "Spatial Analysis and Modeling",
+    "name_ar": "التحليل والنمذجة المكانية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI401"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI402",
+    "code": "GI402",
+    "name_en": "GIS Programming",
+    "name_ar": "برمجة نظم المعلومات الجغرافية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI402"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI403",
+    "code": "GI403",
+    "name_en": "Spatial Decision Support Systems",
+    "name_ar": "نظم دعم القرارات المكانية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI403"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI404",
+    "code": "GI404",
+    "name_en": "Web and Mobile GIS",
+    "name_ar": "نظم المعلومات الجغرافية على الويب والمحمول",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300",
+      "IT301"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI404"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI430",
+    "code": "GI430",
+    "name_en": "Project I (GI)",
+    "name_ar": "المشروع I (الجيومعلوماتية)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI430"
+    },
+    "unlocks": [
+      "GI431"
+    ]
+  },
+  {
+    "id": "GI431",
+    "code": "GI431",
+    "name_en": "Project II (GI)",
+    "name_ar": "المشروع II (الجيومعلوماتية)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI430"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "GI": "GI431"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI405",
+    "code": "GI405",
+    "name_en": "Spatial Statistics",
+    "name_ar": "الاحصاء المكاني",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI405"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI406",
+    "code": "GI406",
+    "name_en": "Open and Distributed GIS Infrastructures",
+    "name_ar": "البنية التحتية لنظم المعلومات الجغرافية الموزعة والمفتوحة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI406"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI407",
+    "code": "GI407",
+    "name_en": "Medical GIS",
+    "name_ar": "نظم المعلومات الجغرافية الطبية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI407"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI408",
+    "code": "GI408",
+    "name_en": "GIS Network Modeling",
+    "name_ar": "نمذجة الشبكات باستخدام نظم المعلومات الجغرافية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI408"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI409",
+    "code": "GI409",
+    "name_en": "Spatial Data Mining",
+    "name_ar": "التنقيب في البيانات المكانية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS201"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI409"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI410",
+    "code": "GI410",
+    "name_en": "Remote Sensing Application",
+    "name_ar": "تطبيقات الاستشعار عن بعد",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI301"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI410"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI411",
+    "code": "GI411",
+    "name_en": "Spatial Big Data",
+    "name_ar": "البيانات المكانية الضخمة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IS303"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI411"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI412",
+    "code": "GI412",
+    "name_en": "GIS and Cyber Security",
+    "name_ar": "نظم المعلومات الجغرافية والأمن السيبراني",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT304"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI412"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI413",
+    "code": "GI413",
+    "name_en": "Cloud GIS",
+    "name_ar": "نظم المعلومات الجغرافية السحابية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT303"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI413"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI414",
+    "code": "GI414",
+    "name_en": "Spatial Data Acquisition Techniques",
+    "name_ar": "تقنيات جمع البيانات المكانية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "GI300"
+    ],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI414"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI425",
+    "code": "GI425",
+    "name_en": "Selected Topics in Geoinformatics I",
+    "name_ar": "موضوعات مختارة في الجيومعلوماتية I",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI425"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "GI426",
+    "code": "GI426",
+    "name_en": "Selected Topics in Geoinformatics II",
+    "name_ar": "موضوعات مختارة في الجيومعلوماتية II",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "GI"
+    ],
+    "requirements_by_program": {
+      "GI": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "GI": "GI Department Electives (اختياري الجيومعلوماتية - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "GI": "GI426"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT305",
+    "code": "IT305",
+    "name_en": "Mobile Application Development",
+    "name_ar": "تطوير تطبيقات الهاتف المحمول",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "IT",
+      "CS"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      },
+      "CS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "CS": "CS Department Electives (اختياري علوم حاسب - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT305",
+      "CS": "IT305"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT300",
+    "code": "IT300",
+    "name_en": "Digital Signal Processing",
+    "name_ar": "معالجة الإشارات الرقمية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "BS101"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT300"
+    },
+    "unlocks": [
+      "IT401"
+    ]
+  },
+  {
+    "id": "IT306",
+    "code": "IT306",
+    "name_en": "Wireless and Mobile Networks",
+    "name_ar": "الشبكات اللاسلكية والمتحركة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IT202"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT306"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT307",
+    "code": "IT307",
+    "name_en": "Embedded Systems Design",
+    "name_ar": "تصميم النظم المدمجة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "IT200"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT307"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT308",
+    "code": "IT308",
+    "name_en": "Microcontrollers",
+    "name_ar": "المتحكمات الصغيرة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT308"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT401",
+    "code": "IT401",
+    "name_en": "Image Processing",
+    "name_ar": "معالجة الصور",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT300"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT401"
+    },
+    "unlocks": [
+      "IT415"
+    ]
+  },
+  {
+    "id": "IT402",
+    "code": "IT402",
+    "name_en": "Network Security",
+    "name_ar": "امان الشبكات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT304",
+      "IT202"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT402"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT403",
+    "code": "IT403",
+    "name_en": "Computer Vision",
+    "name_ar": "الرؤية بالحاسب",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT203"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT403"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT404",
+    "code": "IT404",
+    "name_en": "Robotics",
+    "name_ar": "الإنسان الآلي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT200"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT404"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT430",
+    "code": "IT430",
+    "name_en": "Project I (IT)",
+    "name_ar": "المشروع I (تكنولوجيا المعلومات)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT430"
+    },
+    "unlocks": [
+      "IT431"
+    ]
+  },
+  {
+    "id": "IT431",
+    "code": "IT431",
+    "name_en": "Project II (IT)",
+    "name_ar": "المشروع II (تكنولوجيا المعلومات)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT430"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "IT": "IT431"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT405",
+    "code": "IT405",
+    "name_en": "Computer Animation and 3D Modeling",
+    "name_ar": "الرسوم المتحركة والنمذجة ثلاثية الأبعاد",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT203"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT405"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT406",
+    "code": "IT406",
+    "name_en": "Information Theory and Data Compression",
+    "name_ar": "نظرية المعلومات وضغط البيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT202"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT406"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT407",
+    "code": "IT407",
+    "name_en": "Virtual and Augmented Reality",
+    "name_ar": "الواقع الافتراضي والمعزز",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT203"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT407"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT408",
+    "code": "IT408",
+    "name_en": "Network Simulation",
+    "name_ar": "محاكاة الشبكات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT202"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT408"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT409",
+    "code": "IT409",
+    "name_en": "Computer Forensics",
+    "name_ar": "العلوم الجنائية الحاسوبية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT200"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT409"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT410",
+    "code": "IT410",
+    "name_en": "Cloud Networks",
+    "name_ar": "الشبكات السحابية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT202"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT410"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT411",
+    "code": "IT411",
+    "name_en": "Pattern Recognition",
+    "name_ar": "التعرف على الأنماط",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT203"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT411"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT412",
+    "code": "IT412",
+    "name_en": "Multimedia Mining",
+    "name_ar": "التنقيب في الوسائط المتعددة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT203"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT412"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT413",
+    "code": "IT413",
+    "name_en": "Optical Networks",
+    "name_ar": "الشبكات الضوئية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT202"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT413"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT414",
+    "code": "IT414",
+    "name_en": "Quantum Computing",
+    "name_ar": "حوسبة الكم",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS201"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT414"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT415",
+    "code": "IT415",
+    "name_en": "Computational Imaging",
+    "name_ar": "التصوير الحسابي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT401"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT415"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT416",
+    "code": "IT416",
+    "name_en": "Game Development",
+    "name_ar": "تطوير الألعاب",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS200"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT416"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT417",
+    "code": "IT417",
+    "name_en": "Wireless Sensors Networks",
+    "name_ar": "شبكات الاستشعار اللاسلكية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "IT202"
+    ],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT417"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT425",
+    "code": "IT425",
+    "name_en": "Selected Topics in Information Technology I",
+    "name_ar": "موضوعات مختارة في تكنولوجيا المعلومات I",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT425"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "IT426",
+    "code": "IT426",
+    "name_en": "Selected Topics in Information Technology II",
+    "name_ar": "موضوعات مختارة في تكنولوجيا المعلومات II",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "IT"
+    ],
+    "requirements_by_program": {
+      "IT": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "IT": "IT Department Electives (اختياري تكنولوجيا المعلومات - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "IT": "IT426"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS301",
+    "code": "DS301",
+    "name_en": "Modeling and Simulation",
+    "name_ar": "النمذجة والمحاكاة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "DS100",
+      "BS103"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS301"
+    },
+    "unlocks": [
+      "DS305",
+      "DS418"
+    ]
+  },
+  {
+    "id": "DS302",
+    "code": "DS302",
+    "name_en": "Advanced operations Research",
+    "name_ar": "بحوث العمليات المتقدمة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS302"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS303",
+    "code": "DS303",
+    "name_en": "Decision Support Methodologies",
+    "name_ar": "منهجيات دعم القرار",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS303"
+    },
+    "unlocks": [
+      "DS402",
+      "DS409",
+      "DS410",
+      "DS411",
+      "DS417"
+    ]
+  },
+  {
+    "id": "DS305",
+    "code": "DS305",
+    "name_en": "Systems Dynamics Modeling",
+    "name_ar": "نمذجة النظم الديناميكية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "DS301"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS305"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS400",
+    "code": "DS400",
+    "name_en": "Data Analytics",
+    "name_ar": "تحليل البيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS400"
+    },
+    "unlocks": [
+      "DS416"
+    ]
+  },
+  {
+    "id": "DS401",
+    "code": "DS401",
+    "name_en": "Stochastic Methods",
+    "name_ar": "الطرق العشوائية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS401"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS403",
+    "code": "DS403",
+    "name_en": "Computational Intelligence",
+    "name_ar": "الذكاء الحسابي",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "CS203"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS403"
+    },
+    "unlocks": [
+      "DS412"
+    ]
+  },
+  {
+    "id": "DS404",
+    "code": "DS404",
+    "name_en": "Supply Chain Planning and Logistics",
+    "name_ar": "تخطيط سلسلة التوريد والخدمات اللوجستية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS404"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS405",
+    "code": "DS405",
+    "name_en": "Forecasting Techniques",
+    "name_ar": "تقنيات التنبؤ",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS405"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS430",
+    "code": "DS430",
+    "name_en": "Project I (DS)",
+    "name_ar": "المشروع I (دعم القرار)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS430"
+    },
+    "unlocks": [
+      "DS431"
+    ]
+  },
+  {
+    "id": "DS431",
+    "code": "DS431",
+    "name_en": "Project II (DS)",
+    "name_ar": "المشروع II (دعم القرار)",
+    "credit_hours": 3,
+    "lecture_hours": 1,
+    "lab_hours": 4,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS430"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "compulsory",
+        "label_ar": "إجباري",
+        "label_en": "Compulsory"
+      }
+    },
+    "elective_category_by_program": {},
+    "codes_by_program": {
+      "DS": "DS431"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS304",
+    "code": "DS304",
+    "name_en": "Quality Management",
+    "name_ar": "ادارة الجودة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 3,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS304"
+    },
+    "unlocks": [
+      "DS414"
+    ]
+  },
+  {
+    "id": "DS402",
+    "code": "DS402",
+    "name_en": "Strategic Management and Business Analysis",
+    "name_ar": "الإدارة الاستراتيجية وتحليل الأعمال",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS303"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS402"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS406",
+    "code": "DS406",
+    "name_en": "Service Management",
+    "name_ar": "إدارة الخدمات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS406"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS407",
+    "code": "DS407",
+    "name_en": "Operations Management",
+    "name_ar": "إدارة العمليات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS407"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS408",
+    "code": "DS408",
+    "name_en": "Multi-Objective Programing",
+    "name_ar": "البرمجة متعددة الاهداف",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS408"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS409",
+    "code": "DS409",
+    "name_en": "Production Planning and Inventory Control",
+    "name_ar": "تخطيط الإنتاج ومراقبة المخازن",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS303"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS409"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS410",
+    "code": "DS410",
+    "name_en": "Decision and Game Theory",
+    "name_ar": "نظرية القرارات والألعاب",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS303"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS410"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS411",
+    "code": "DS411",
+    "name_en": "Decision and Risk Management",
+    "name_ar": "القرار وإدارة المخاطر",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS303"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS411"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS412",
+    "code": "DS412",
+    "name_en": "Optimization Models and Methods",
+    "name_ar": "نماذج وطرق الأمثلة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS403"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS412"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS413",
+    "code": "DS413",
+    "name_en": "Scheduling Techniques",
+    "name_ar": "تقنيات الجدولة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS413"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS414",
+    "code": "DS414",
+    "name_en": "Quality Control and Reliability",
+    "name_ar": "مراقبة الجودة والموثوقية",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS304"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS414"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS415",
+    "code": "DS415",
+    "name_en": "Stochastic Processes and Queuing Models",
+    "name_ar": "العمليات العشوائية ونماذج الانتظار",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS100"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS415"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS416",
+    "code": "DS416",
+    "name_en": "Data Analytics Programming",
+    "name_ar": "برمجة تحليل البيانات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS400"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS416"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS417",
+    "code": "DS417",
+    "name_en": "Decision Analysis",
+    "name_ar": "تحليل القرار",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS303"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS417"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS418",
+    "code": "DS418",
+    "name_en": "Network Modelling and Optimization",
+    "name_ar": "نمذجة وأمثليه الشبكات",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS301"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS418"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS419",
+    "code": "DS419",
+    "name_en": "Advanced Project Management",
+    "name_ar": "إدارة المشروعات المتقدمة",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [
+      "DS300"
+    ],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS419"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS425",
+    "code": "DS425",
+    "name_en": "Selected Topics in Operations Research and Decision Support I",
+    "name_ar": "موضوعات مختارة في بحوث العمليات ودعم القرار I",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS425"
+    },
+    "unlocks": []
+  },
+  {
+    "id": "DS426",
+    "code": "DS426",
+    "name_en": "Selected Topics in Operations Research and Decision Support II",
+    "name_ar": "موضوعات مختارة في بحوث العمليات ودعم القرار II",
+    "credit_hours": 3,
+    "lecture_hours": 2,
+    "lab_hours": 2,
+    "level": 4,
+    "semester": null,
+    "prerequisites": [],
+    "programs": [
+      "DS"
+    ],
+    "requirements_by_program": {
+      "DS": {
+        "type": "elective",
+        "label_ar": "اختياري",
+        "label_en": "Elective"
+      }
+    },
+    "elective_category_by_program": {
+      "DS": "DS Department Electives (اختياري دعم القرار - 12 ساعة)"
+    },
+    "codes_by_program": {
+      "DS": "DS426"
+    },
+    "unlocks": []
+  }
+]
